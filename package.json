@@ -10,10 +10,11 @@
     "framer-motion": "^10.16.4",
     "aos": "^2.3.4"
   },
-  "scripts": {
+ "scripts": {
     "start": "vite",
     "build": "vite build",
     "serve": "vite preview",
+    "deploy": "gh-pages -d dist",
     "dev": "vite"
   },
   "devDependencies": {
